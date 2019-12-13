@@ -22,7 +22,7 @@ import { CodeDemoEditorInjector } from './code-demo-editor.injector';
 @Component({
   selector: 'code-demo-editor',
   template: `
-    <div #editor class="monaco-editor"></div>
+    <div #editor autoFolding class="monaco-editor"></div>
   `,
   styleUrls: ['editor.component.css'],
   providers: [
